@@ -1,5 +1,7 @@
 ---
 name: skill-glm-delegation-with-brief
+version: 1.2.0
+kind: skill
 metadata:
   version: "1.2.0"
 description: >-

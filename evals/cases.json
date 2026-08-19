@@ -1,0 +1,24 @@
+{
+  "skill": "skill-glm-delegation-with-brief",
+  "notes": "Mechanical GLM brief after the consultant gate.",
+  "cases": [
+    {
+      "id": "happy-01-glm",
+      "should_trigger": true,
+      "prompt": "GLM으로 시켜. 지시서 써줘 코딩 위임",
+      "checks": { "preserve_tokens": ["Brief"] }
+    },
+    {
+      "id": "happy-02-en",
+      "should_trigger": true,
+      "prompt": "write a glm brief for this delegation",
+      "checks": { "preserve_tokens": ["Files"] }
+    },
+    {
+      "id": "neg-01-architecture",
+      "should_trigger": false,
+      "prompt": "이 시스템의 아키텍처를 어떻게 잡을지 같이 결정해줘",
+      "checks": {}
+    }
+  ]
+}
